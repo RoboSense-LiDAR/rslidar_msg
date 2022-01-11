@@ -2,11 +2,10 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>rslidar_msg</name>
-  <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <version>1.3.0</version>
+  <description>Messages for the rslidar_sdk package</description>
   <maintainer email="zdxiao@robosense.cn">robosense</maintainer>
-  <license>TODO: License declaration</license>
-
+  <license>BSD</license>
   <buildtool_depend>ament_cmake</buildtool_depend>
 
   <depend>std_msgs</depend>
@@ -22,7 +21,7 @@
 
   <exec_depend>rosidl_default_runtime</exec_depend>
 
-<member_of_group>rosidl_interface_packages</member_of_group>
+  <member_of_group>rosidl_interface_packages</member_of_group>
   <export>
     <build_type>ament_cmake</build_type>
   </export>
