@@ -21,11 +21,12 @@ find_package(std_msgs REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(builtin_interfaces REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
+
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/RslidarPacket.msg"
-  "msg/RslidarScan.msg"
   DEPENDENCIES builtin_interfaces std_msgs
  )
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
